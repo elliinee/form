@@ -1,0 +1,84 @@
+{
+  "name_inputs": [
+    {
+      "label": "Фамилия*",
+      "type": "text",
+      "id": "last_name",
+      "name": "last_name",
+      "placeholder": "Введите фамилию"
+    },
+    {
+      "label": "Имя*",
+      "type": "text",
+      "id": "first_name",
+      "name": "first_name",
+      "placeholder": "Введите имя"
+    },
+    {
+      "label": "Отчество",
+      "type": "text",
+      "id": "patronymic",
+      "name": "patronymic",
+      "placeholder": "Введите отчество"
+    }
+  ],
+  "person_inputs": [
+    {
+      "label": "Дата рождения",
+      "type": "date",
+      "id": "birthdate",
+      "name": "birthdate"
+    },
+    {
+      "label": "Время рождения",
+      "type": "time",
+      "id": "birthtime",
+      "name": "birthtime"
+    },
+    {
+      "label": "Ваш пол",
+      "id": "gender",
+      "name": "gender"
+    }
+    
+  ],
+  "wish_inputs": [
+    {
+      "label": "Нужная сумма*",
+      "type": "number",
+      "id": "sum",
+      "name": "sum",
+      "placeholder": "Введите сумму"
+    },
+    {
+      "label": "Цель*",
+      "type": "text",
+      "id": "goal",
+      "name": "goal",
+      "placeholder": "Введите цель"
+    }
+    
+    
+  ],
+  "contact_inputs": [
+    {
+      "label": "Номер мобильного телефона",
+      "type": "tel",
+      "id": "tel",
+      "name": "tel",
+      "placeholder": "Ваш номер"
+    },
+    {
+      "label": "Электронная почта*",
+      "type": "email",
+      "id": "email",
+      "name": "email",
+      "placeholder": "Ваш e-mail"
+    }
+  ],
+
+  "submit": {
+    "url": "http://wishbank.com",
+    "text": "Отправить желание"
+  }
+}

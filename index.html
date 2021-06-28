@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма</title>
+
+</head>
+<body>
+  
+  <div class="form">
+
+    <style type="text/css">
+    /* шрифт */
+    @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+    body {
+      margin: 0 auto;
+      padding: 0;
+      font-family: 'Neucha', cursive;
+    }
+    form {
+      padding: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+    a {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      cursor: pointer;
+    }
+    label {
+      margin: 0 0 10px 0;
+    }
+    input {
+      width: 300px;
+      font-size: 20px;
+      padding: 10px;
+      border: 0px;
+      border-bottom: 1px solid #777 !important;
+      margin-right: 20px;
+      outline: none;
+      margin-bottom: 20px; 
+    }
+    input::placeholder {
+      font-family: 'Neucha', cursive;
+      font-size: 16px;
+    }
+    select  {
+      font-family: 'Neucha', cursive;
+      font-size: 16px;
+      border: 0;
+      border-bottom: 1px solid #777;
+      outline: none;
+      padding: 12px; 
+      width: 320px; 
+    }
+    .form_wrapper > div {
+      text-align: center;
+      font-weight: bold;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .wrap_title {
+      font-size: 25px;
+      margin-left: 25px;
+      margin-bottom: 10px;
+    }
+    .inputs_wrapper {
+      margin-bottom: 35px;
+      display: flex;
+      flex-direction: column;
+    }  
+    .form {
+      font-size: 20px;
+      background: linear-gradient(122deg, rgba(189,255,237,1) 0%, rgba(225,190,255,1) 100%);
+      padding: 10px;
+    }
+    .input {
+      font-family: 'Neucha', cursive;
+    }
+    .button {
+      border: 1px solid #777;
+      border-radius: 5px;
+      background-color: #fff;
+      font-family: 'Neucha', cursive;
+      cursor: pointer;
+      padding: 10px;
+      
+    }
+    .button_wrapper {
+      display: flex;
+      justify-content: center;
+      flex: 0 0 30%;
+    }
+    .dark {
+      background: linear-gradient(122deg, rgba(19,87,68,1) 0%, rgba(60,28,88,1) 100%);
+      color: #dadada;
+    }
+    .dark .button {
+      color: #333;
+    }
+    #birthdate, #birthtime {
+      padding: 8px;
+    }
+    </style>
+
+  </div>
+
+  <script src="/main.js" defer></script>
+</body>
+</html>
